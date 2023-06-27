@@ -45,7 +45,7 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Recherche alternance développeur web & mobile (Javascript / React.Js / Node.Js)</span>
+                        <span className="tagline">Recherche alternance "Concepteur Développeur d'Applications"</span>
                         <h1><span className="wrap">{text + ','}</span></h1>
                         <h1>{`I'm a future web developer`}</h1>
                         <p>Bienvenue dans mon univers. Je m'appelle <b>Willy</b> et en septembre j'intègre une école afin d'obtenir un diplôme niveau bac +4 dans le <b>developpement web & mobile (Js, React, Node), en alternance</b>.

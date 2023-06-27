@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap"
 import imgAvatar from '../assets/img/avatar.png';
+import linkResume from '../docs/resume.pdf';
 
 export const Story = () => {
     return (
@@ -9,6 +10,7 @@ export const Story = () => {
                     <Col>
                         <div className="story-box">
                             <h2>Mon Histoire</h2>
+                            <p className="linkResume"><a href={linkResume} target="_blank" rel="noreferrer">Voir mon Curriculum Vitæ</a></p>
                             <img src={imgAvatar} alt="avatar"></img>
                             <p>Tout a commencé lorsque j'avais environ 11 ans. J'ai eu la chance de récupérer un ordinateur portable d'un membre de ma famille. J'allume l'ordinateur et là, 
                                 je découvre Internet, les forums, les jeux vidéo en ligne, etc.  Pendant cette période, le jeu à la mode était Habbo, une sorte de réseau social pour les ados. 

@@ -423,6 +423,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon{
   margin: 14px 0 50px 0;
 }
 
+.story-box .linkResume {
+  color: black;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 5px 0 10px 0;
+}
+
 /****************** Projects Css ******************/
 
 .project {
