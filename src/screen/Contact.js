@@ -17,7 +17,6 @@ export const Contact = () => {
     const emailData = Object.fromEntries(formData.entries());
     emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, emailData, process.env.REACT_APP_PUBLIC_API).then((result) => {
       console.log(result.text);
-      alert('its good.. make something');
       root.render(
         <div>
           <img src='https://i.giphy.com/media/3oz8xDLuiN1GcDA3xC/giphy.webp' alt='Gif of Success'></img>
