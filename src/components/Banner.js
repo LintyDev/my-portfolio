@@ -45,13 +45,13 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Recherche alternance "Concepteur Développeur d'Applications"</span>
+                        <span className="tagline">En alternance "Concepteur Développeur d'Applications" chez Piwigo</span>
                         <h1><span className="wrap">{text + ','}</span></h1>
-                        <h1>{`I'm a future web developer`}</h1>
-                        <p>Bienvenue dans mon univers. Je m'appelle <b>Willy</b> et en septembre j'intègre une école afin d'obtenir un diplôme niveau bac +4 dans le <b>developpement web & mobile (Js, React, Node), en alternance</b>.
-                            C'est à ce moment précis que <b>j'ai besoin de vous</b>, besoin qu'on croit en mon projet. Que vous me donniez cette chance de pouvoir faire ce que j'ai toujours aimé dans ma vie.
-                            Je parle d'apprendre sur de nouvelles technologies, écrire des lignes de codes, résoudres des problèmes, fouiller afin de trouver des solutions, essayer et rééssayer (try and retry). 
-                            Je vous laisse découvrir mon Portfolio et surtout mon <b>histoire</b>.
+                        <h1>{`I'm a web developer`}</h1>
+                        <p>
+                        Plongez dans un monde où la technologie rencontre la créativité, où chaque ligne de code raconte une histoire, 
+                        et chaque projet reflète ma passion pour l'innovation et la résolution de problèmes. Découvrez mon histoire, explorez mes réalisations, 
+                        et voyez comment je transforme les défis en opportunités. Bienvenue dans mon univers – là où le développement web prend vie.
                         </p>
                         <button onClick={() => window.location.href='/contact'}>Let's talk <ArrowRightCircle size={25} /></button>
                     </Col>
