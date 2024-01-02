@@ -16,7 +16,7 @@ export const Footer = () => {
                             <a href="https://github.com/LintyDev/" target="_blank" rel="noreferrer"><img src={logoGithub} alt="Github Logo" /></a>
                             <a href="https://www.linkedin.com/in/linty/" target="_blank" rel="noreferrer"><img src={logoLinkedin} alt="Linkedin Logo" /></a>
                         </div>
-                        <p>© Copyright 2023. All Right Reserved.</p>
+                        <p>© Copyright 2024. All Right Reserved.</p>
                     </Col>
                 </Row>
             </Container>
